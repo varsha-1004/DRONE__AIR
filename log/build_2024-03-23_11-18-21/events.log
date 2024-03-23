@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (-) JobUnselected: {'identifier': 'test_controller'}
+[0.002189] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002894] (tes_pande) JobQueued: {'identifier': 'tes_pande', 'dependencies': OrderedDict()}
+[0.004161] (tes_pande) JobStarted: {'identifier': 'tes_pande'}
+[0.099423] (-) TimerEvent: {}
+[0.200344] (-) TimerEvent: {}
+[0.301158] (-) TimerEvent: {}
+[0.401836] (-) TimerEvent: {}
+[0.502750] (-) TimerEvent: {}
+[0.603468] (-) TimerEvent: {}
+[0.704155] (-) TimerEvent: {}
+[0.804833] (-) TimerEvent: {}
+[0.905582] (-) TimerEvent: {}
+[1.006260] (-) TimerEvent: {}
+[1.106986] (-) TimerEvent: {}
+[1.207746] (-) TimerEvent: {}
+[1.308465] (-) TimerEvent: {}
+[1.409191] (-) TimerEvent: {}
+[1.510038] (-) TimerEvent: {}
+[1.610905] (-) TimerEvent: {}
+[1.711856] (-) TimerEvent: {}
+[1.812580] (-) TimerEvent: {}
+[1.913344] (-) TimerEvent: {}
+[2.014056] (-) TimerEvent: {}
+[2.114774] (-) TimerEvent: {}
+[2.215483] (-) TimerEvent: {}
+[2.316190] (-) TimerEvent: {}
+[2.417322] (-) TimerEvent: {}
+[2.518015] (-) TimerEvent: {}
+[2.618738] (-) TimerEvent: {}
+[2.719496] (-) TimerEvent: {}
+[2.821428] (-) TimerEvent: {}
+[2.922147] (-) TimerEvent: {}
+[3.022944] (-) TimerEvent: {}
+[3.123729] (-) TimerEvent: {}
+[3.224436] (-) TimerEvent: {}
+[3.326573] (-) TimerEvent: {}
+[3.427537] (-) TimerEvent: {}
+[3.528245] (-) TimerEvent: {}
+[3.629100] (-) TimerEvent: {}
+[3.729809] (-) TimerEvent: {}
+[3.830527] (-) TimerEvent: {}
+[3.931318] (-) TimerEvent: {}
+[3.973900] (tes_pande) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/tes_pande', 'build', '--build-base', '/home/xlr8wins/dev_ws/src/build/tes_pande/build', 'install', '--record', '/home/xlr8wins/dev_ws/src/build/tes_pande/install.log', '--install-scripts', '$base/lib/tes_pande', '--single-version-externally-managed'], 'cwd': '/home/xlr8wins/dev_ws/src/tes_pande', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'xlr8wins', 'UNITY_HAS_3D_SUPPORT': 'true', 'LANGUAGE': 'en_IN:en', 'TEXTDOMAIN': 'im-config', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'SHLVL': '2', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/xlr8wins', 'OLDPWD': '/home/xlr8wins/dev_ws/src/tes_pande', 'DESKTOP_SESSION': 'unity', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'MANAGERPID': '7148', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f45faa77feae1c606809917e65fd7894', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'IM_CONFIG_PHASE': '2', 'LOGNAME': 'xlr8wins', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:34718', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'USERNAME': 'xlr8wins', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/xlr8wins/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': 'a9dd4c40077c4df7bb6758656550ac6c', 'SESSION_MANAGER': 'local/xlr8wins-desktop:@/tmp/.ICE-unix/7471,unix/xlr8wins-desktop:/tmp/.ICE-unix/7471', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/107565e2_04b9_4d4a_aed5_3c3473a3207b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'ZEITGEIST_DATA_PATH': '/home/xlr8wins/.local/share/zeitgeist', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.81', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/xlr8wins/dev_ws/src/build/tes_pande', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f45faa77feae1c606809917e65fd7894', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'COLCON': '1', 'VTE_VERSION': '5202', 'PYTHONPATH': '/home/xlr8wins/dev_ws/src/build/tes_pande/prefix_override:/home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages:'}, 'shell': False}
+[4.031606] (-) TimerEvent: {}
+[4.132523] (-) TimerEvent: {}
+[4.233251] (-) TimerEvent: {}
+[4.333972] (-) TimerEvent: {}
+[4.434725] (-) TimerEvent: {}
+[4.535449] (-) TimerEvent: {}
+[4.636151] (-) TimerEvent: {}
+[4.736863] (-) TimerEvent: {}
+[4.837587] (-) TimerEvent: {}
+[4.938315] (-) TimerEvent: {}
+[5.039069] (-) TimerEvent: {}
+[5.139790] (-) TimerEvent: {}
+[5.192908] (tes_pande) StderrLine: {'line': b"/home/xlr8wins/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.193804] (tes_pande) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[5.240001] (-) TimerEvent: {}
+[5.340838] (-) TimerEvent: {}
+[5.357355] (tes_pande) StdoutLine: {'line': b'running egg_info\n'}
+[5.360109] (tes_pande) StdoutLine: {'line': b'creating ../build/tes_pande/tes_pande.egg-info\n'}
+[5.360963] (tes_pande) StdoutLine: {'line': b'writing ../build/tes_pande/tes_pande.egg-info/PKG-INFO\n'}
+[5.361675] (tes_pande) StdoutLine: {'line': b'writing dependency_links to ../build/tes_pande/tes_pande.egg-info/dependency_links.txt\n'}
+[5.362311] (tes_pande) StdoutLine: {'line': b'writing entry points to ../build/tes_pande/tes_pande.egg-info/entry_points.txt\n'}
+[5.363067] (tes_pande) StdoutLine: {'line': b'writing requirements to ../build/tes_pande/tes_pande.egg-info/requires.txt\n'}
+[5.363561] (tes_pande) StdoutLine: {'line': b'writing top-level names to ../build/tes_pande/tes_pande.egg-info/top_level.txt\n'}
+[5.374448] (tes_pande) StdoutLine: {'line': b"writing manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'\n"}
+[5.381698] (tes_pande) StdoutLine: {'line': b"reading manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'\n"}
+[5.387097] (tes_pande) StdoutLine: {'line': b"writing manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'\n"}
+[5.387859] (tes_pande) StdoutLine: {'line': b'running build\n'}
+[5.388642] (tes_pande) StdoutLine: {'line': b'running build_py\n'}
+[5.389269] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/build/tes_pande/build\n'}
+[5.389803] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib\n'}
+[5.390318] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande\n'}
+[5.390836] (tes_pande) StdoutLine: {'line': b'copying tes_pande/__init__.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande\n'}
+[5.391307] (tes_pande) StdoutLine: {'line': b'copying tes_pande/publisher_member_function.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande\n'}
+[5.391759] (tes_pande) StdoutLine: {'line': b'copying tes_pande/subscriber_member_function.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande\n'}
+[5.392410] (tes_pande) StdoutLine: {'line': b'running install\n'}
+[5.393004] (tes_pande) StderrLine: {'line': b'/home/xlr8wins/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.393518] (tes_pande) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.394106] (tes_pande) StdoutLine: {'line': b'running install_lib\n'}
+[5.396343] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande\n'}
+[5.397017] (tes_pande) StdoutLine: {'line': b'copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/__init__.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande\n'}
+[5.397583] (tes_pande) StdoutLine: {'line': b'copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/publisher_member_function.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande\n'}
+[5.398123] (tes_pande) StdoutLine: {'line': b'copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/subscriber_member_function.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande\n'}
+[5.399339] (tes_pande) StdoutLine: {'line': b'byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/__init__.py to __init__.cpython-36.pyc\n'}
+[5.400109] (tes_pande) StdoutLine: {'line': b'byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/publisher_member_function.py to publisher_member_function.cpython-36.pyc\n'}
+[5.401694] (tes_pande) StdoutLine: {'line': b'byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc\n'}
+[5.402842] (tes_pande) StdoutLine: {'line': b'running install_data\n'}
+[5.404886] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index\n'}
+[5.405642] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index\n'}
+[5.406171] (tes_pande) StdoutLine: {'line': b'creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index/packages\n'}
+[5.406703] (tes_pande) StdoutLine: {'line': b'copying resource/tes_pande -> /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index/packages\n'}
+[5.407157] (tes_pande) StdoutLine: {'line': b'copying package.xml -> /home/xlr8wins/dev_ws/src/install/tes_pande/share/tes_pande\n'}
+[5.407632] (tes_pande) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.412889] (tes_pande) StdoutLine: {'line': b'Copying ../build/tes_pande/tes_pande.egg-info to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande-0.0.0-py3.6.egg-info\n'}
+[5.416542] (tes_pande) StdoutLine: {'line': b'running install_scripts\n'}
+[5.441050] (-) TimerEvent: {}
+[5.498575] (tes_pande) StdoutLine: {'line': b'Installing listener script to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/tes_pande\n'}
+[5.499645] (tes_pande) StdoutLine: {'line': b'Installing talker script to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/tes_pande\n'}
+[5.500573] (tes_pande) StdoutLine: {'line': b"writing list of installed files to '/home/xlr8wins/dev_ws/src/build/tes_pande/install.log'\n"}
+[5.541316] (-) TimerEvent: {}
+[5.613036] (tes_pande) CommandEnded: {'returncode': 0}
+[5.641869] (-) TimerEvent: {}
+[5.687837] (tes_pande) JobEnded: {'identifier': 'tes_pande', 'rc': 0}
+[5.691145] (-) EventReactorShutdown: {}

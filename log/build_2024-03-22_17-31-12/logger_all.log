@@ -1,0 +1,215 @@
+[3.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.001s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7dc980b8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7dc980b8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7db6d7f0>)
+[3.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xlr8wins/dev_ws/src'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extension 'ignore'
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) ignored
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) ignored
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extension 'ignore'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) ignored
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[3.307s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extension 'ignore'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extension 'ignore_ament_install'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extensions ['colcon_pkg']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extension 'colcon_pkg'
+[3.310s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extensions ['colcon_meta']
+[3.310s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extension 'colcon_meta'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extensions ['ros']
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(test_controller) by extension 'ros'
+[3.314s] DEBUG:colcon.colcon_core.package_identification:Package 'test_controller' with type 'ros.ament_python' and name 'test_controller'
+[3.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.667s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /home/xlr8wins/ros2_dashing/install
+[3.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.840s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_args' from command line to 'None'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_target' from command line to 'None'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.842s] DEBUG:colcon.colcon_core.verb:Building package 'test_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xlr8wins/dev_ws/src/build/test_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xlr8wins/dev_ws/src/install/test_controller', 'merge_install': False, 'path': '/home/xlr8wins/dev_ws/src/test_controller', 'symlink_install': False, 'test_result_base': None}
+[3.845s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.847s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xlr8wins/dev_ws/src/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xlr8wins/dev_ws/src/install/turtlesim', 'merge_install': False, 'path': '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[3.848s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.854s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xlr8wins/dev_ws/src/test_controller' with build type 'ament_python'
+[3.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_controller', 'ament_prefix_path')
+[3.891s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.dsv'
+[3.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.sh'
+[3.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.041s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[4.042s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim'
+[4.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.289s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xlr8wins/dev_ws/src/test_controller'
+[7.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xlr8wins/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/xlr8wins/dev_ws/src/build/turtlesim -- -j4 -l4
+[11.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xlr8wins/dev_ws/src/test_controller': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
+[15.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xlr8wins/dev_ws/src/test_controller' returned '0': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
+[15.780s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller' for CMake module files
+[15.790s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller' for CMake config files
+[15.796s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller/lib'
+[15.798s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller/bin'
+[15.799s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller/lib/pkgconfig/test_controller.pc'
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages'
+[15.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_controller', 'pythonpath')
+[15.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/pythonpath.ps1'
+[15.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/pythonpath.dsv'
+[15.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/pythonpath.sh'
+[15.812s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/test_controller/bin'
+[15.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_controller)
+[15.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/package.ps1'
+[15.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/package.dsv'
+[15.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/package.sh'
+[15.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/package.bash'
+[15.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/package.zsh'
+[15.837s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xlr8wins/dev_ws/src/install/test_controller/share/colcon-core/packages/test_controller)
+[98.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xlr8wins/dev_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/xlr8wins/dev_ws/src/build/turtlesim -- -j4 -l4
+[102.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xlr8wins/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/xlr8wins/dev_ws/src/build/turtlesim --target install -- -j4 -l4
+[107.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[107.354s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim' for CMake module files
+[107.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xlr8wins/dev_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/xlr8wins/dev_ws/src/build/turtlesim --target install -- -j4 -l4
+[107.361s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim' for CMake config files
+[107.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[107.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[107.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[107.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[107.378s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib'
+[107.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[107.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[107.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[107.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[107.388s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/bin'
+[107.389s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[107.390s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib/python3.6/site-packages'
+[107.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[107.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[107.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[107.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[107.403s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/bin'
+[107.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.ps1'
+[107.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.dsv'
+[107.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.sh'
+[107.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.bash'
+[107.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.zsh'
+[107.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xlr8wins/dev_ws/src/install/turtlesim/share/colcon-core/packages/turtlesim)
+[111.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[111.238s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim' for CMake module files
+[111.241s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim' for CMake config files
+[111.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[111.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[111.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[111.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[111.255s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib'
+[111.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[111.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[111.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[111.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[111.264s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/bin'
+[111.265s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[111.266s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/lib/python3.6/site-packages'
+[111.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[111.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[111.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[111.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[111.274s] Level 1:colcon.colcon_core.environment:checking '/home/xlr8wins/dev_ws/src/install/turtlesim/bin'
+[111.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.ps1'
+[111.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.dsv'
+[111.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.sh'
+[111.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.bash'
+[111.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/xlr8wins/dev_ws/src/install/turtlesim/share/turtlesim/package.zsh'
+[111.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xlr8wins/dev_ws/src/install/turtlesim/share/colcon-core/packages/turtlesim)
+[111.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[111.293s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[111.293s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[111.293s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[111.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[111.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[111.374s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[111.525s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[111.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.ps1'
+[111.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xlr8wins/dev_ws/src/install/_local_setup_util_ps1.py'
+[111.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.ps1'
+[111.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.sh'
+[111.629s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xlr8wins/dev_ws/src/install/_local_setup_util_sh.py'
+[111.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.sh'
+[111.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.bash'
+[111.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.bash'
+[111.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.zsh'
+[111.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.zsh'

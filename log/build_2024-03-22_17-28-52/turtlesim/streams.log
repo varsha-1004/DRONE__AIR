@@ -1,0 +1,51 @@
+[3.347s] Invoking command in '/home/xlr8wins/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake /home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/xlr8wins/dev_ws/src/install/turtlesim
+[4.124s] -- The C compiler identification is GNU 7.5.0
+[4.720s] -- The CXX compiler identification is GNU 7.5.0
+[4.773s] -- Check for working C compiler: /usr/bin/cc
+[5.311s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.314s] -- Detecting C compiler ABI info
+[5.822s] -- Detecting C compiler ABI info - done
+[5.843s] -- Detecting C compile features
+[7.369s] -- Detecting C compile features - done
+[7.380s] -- Check for working CXX compiler: /usr/bin/c++
+[7.928s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.930s] -- Detecting CXX compiler ABI info
+[8.471s] -- Detecting CXX compiler ABI info - done
+[8.489s] -- Detecting CXX compile features
+[10.736s] -- Detecting CXX compile features - done
+[10.851s] -- Found ament_cmake: 0.7.6 (/home/xlr8wins/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+[11.555s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[11.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.018s] -- Found ament_index_cpp: 0.7.2 (/home/xlr8wins/ros2_dashing/install/ament_index_cpp/share/ament_index_cpp/cmake)
+[15.075s] -- Found geometry_msgs: 0.7.1 (/home/xlr8wins/ros2_dashing/install/geometry_msgs/share/geometry_msgs/cmake)
+[15.777s] -- Found rosidl_adapter: 0.7.10 (/home/xlr8wins/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[16.345s] -- Found rclcpp: 0.7.16 (/home/xlr8wins/ros2_dashing/install/rclcpp/share/rclcpp/cmake)
+[16.598s] -- Found rmw_implementation_cmake: 0.7.2 (/home/xlr8wins/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[16.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.716s] -- Looking for pthread.h
+[17.245s] -- Looking for pthread.h - found
+[17.249s] -- Looking for pthread_create
+[17.763s] -- Looking for pthread_create - not found
+[17.763s] -- Looking for pthread_create in pthreads
+[18.251s] -- Looking for pthread_create in pthreads - not found
+[18.251s] -- Looking for pthread_create in pthread
+[18.762s] -- Looking for pthread_create in pthread - found
+[18.765s] -- Found Threads: TRUE  
+[19.225s] -- Found rclcpp_action: 0.7.16 (/home/xlr8wins/ros2_dashing/install/rclcpp_action/share/rclcpp_action/cmake)
+[19.600s] -- Found rosidl_default_generators: 0.7.0 (/home/xlr8wins/ros2_dashing/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[21.017s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[21.294s] -- Found FastRTPS: /home/xlr8wins/ros2_dashing/install/fastrtps/include  
+[21.942s] -- Found std_srvs: 0.7.1 (/home/xlr8wins/ros2_dashing/install/std_srvs/share/std_srvs/cmake)
+[22.450s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[25.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[26.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[36.785s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[36.859s] -- Found python_cmake_module: 0.7.11 (/home/xlr8wins/ros2_dashing/install/python_cmake_module/share/python_cmake_module/cmake)
+[37.471s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[37.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[37.472s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[37.473s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[37.967s] -- Found PythonExtra: .so  
+[49.775s] -- Configuring done
+[50.909s] -- Generating done
+[50.927s] -- Build files have been written to: /home/xlr8wins/dev_ws/src/build/turtlesim

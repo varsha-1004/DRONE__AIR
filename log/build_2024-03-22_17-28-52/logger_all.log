@@ -1,0 +1,142 @@
+[2.913s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.913s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9a14c048>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9a14c048>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9a00f748>)
+[3.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.099s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xlr8wins/dev_ws/src'
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extension 'ignore'
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) ignored
+[3.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) ignored
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[3.200s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extension 'ignore'
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) ignored
+[3.201s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[3.202s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[3.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[3.219s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extensions ['ignore', 'ignore_ament_install']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extension 'ignore'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extension 'ignore_ament_install'
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extensions ['colcon_pkg']
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extension 'colcon_pkg'
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extensions ['colcon_meta']
+[3.221s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extension 'colcon_meta'
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extensions ['ros']
+[3.222s] Level 1:colcon.colcon_core.package_identification:_identify(test_pandee) by extension 'ros'
+[3.224s] DEBUG:colcon.colcon_core.package_identification:Package 'test_pandee' with type 'ros.ament_python' and name 'test_controller'
+[3.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.581s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /home/xlr8wins/ros2_dashing/install
+[3.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.749s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_args' from command line to 'None'
+[3.750s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_target' from command line to 'None'
+[3.750s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.750s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.750s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.751s] Level 5:colcon.colcon_core.verb:set package 'test_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.751s] DEBUG:colcon.colcon_core.verb:Building package 'test_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xlr8wins/dev_ws/src/build/test_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xlr8wins/dev_ws/src/install/test_controller', 'merge_install': False, 'path': '/home/xlr8wins/dev_ws/src/test_pandee', 'symlink_install': False, 'test_result_base': None}
+[3.754s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[3.755s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[3.755s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.755s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[3.755s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[3.755s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[3.756s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[3.756s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[3.756s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.756s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xlr8wins/dev_ws/src/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xlr8wins/dev_ws/src/install/turtlesim', 'merge_install': False, 'path': '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[3.758s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.763s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.765s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xlr8wins/dev_ws/src/test_pandee' with build type 'ament_python'
+[3.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_controller', 'ament_prefix_path')
+[3.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.dsv'
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller/hook/ament_prefix_path.sh'
+[3.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[3.949s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim'
+[3.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.148s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xlr8wins/dev_ws/src/test_pandee'
+[7.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xlr8wins/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xlr8wins/ros2_dashing/install/ros2bag:/home/xlr8wins/ros2_dashing/install/topic_monitor:/home/xlr8wins/ros2_dashing/install/sros2:/home/xlr8wins/ros2_dashing/install/rqt_topic:/home/xlr8wins/ros2_dashing/install/rqt_top:/home/xlr8wins/ros2_dashing/install/rqt_srv:/home/xlr8wins/ros2_dashing/install/rqt_shell:/home/xlr8wins/ros2_dashing/install/rqt_service_caller:/home/xlr8wins/ros2_dashing/install/rqt_py_console:/home/xlr8wins/ros2_dashing/install/rqt_action:/home/xlr8wins/ros2_dashing/install/rqt:/home/xlr8wins/ros2_dashing/install/rqt_graph:/home/xlr8wins/ros2_dashing/install/rqt_gui_py:/home/xlr8wins/ros2_dashing/install/rqt_gui:/home/xlr8wins/ros2_dashing/install/ros2topic:/home/xlr8wins/ros2_dashing/install/ros2test:/home/xlr8wins/ros2_dashing/install/ros2component:/home/xlr8wins/ros2_dashing/install/ros2param:/home/xlr8wins/ros2_dashing/install/ros2lifecycle:/home/xlr8wins/ros2_dashing/install/ros2service:/home/xlr8wins/ros2_dashing/install/ros2srv:/home/xlr8wins/ros2_dashing/install/ros2run:/home/xlr8wins/ros2_dashing/install/ros2launch:/home/xlr8wins/ros2_dashing/install/ros2pkg:/home/xlr8wins/ros2_dashing/install/ros2node:/home/xlr8wins/ros2_dashing/install/ros2multicast:/home/xlr8wins/ros2_dashing/install/ros2msg:/home/xlr8wins/ros2_dashing/install/ros2action:/home/xlr8wins/ros2_dashing/install/ros2cli:/home/xlr8wins/ros2_dashing/install/quality_of_service_demo_py:/home/xlr8wins/ros2_dashing/install/launch_testing_ros:/home/xlr8wins/ros2_dashing/install/launch_ros:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_service:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/xlr8wins/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/xlr8wins/ros2_dashing/install/examples_rclpy_executors:/home/xlr8wins/ros2_dashing/install/demo_nodes_py:/home/xlr8wins/ros2_dashing/install/ament_uncrustify:/home/xlr8wins/ros2_dashing/install/test_launch_ros:/home/xlr8wins/ros2_dashing/install/rosidl_runtime_py:/home/xlr8wins/ros2_dashing/install/launch_testing:/home/xlr8wins/ros2_dashing/install/launch:/home/xlr8wins/ros2_dashing/install/osrf_pycommon:/home/xlr8wins/ros2_dashing/install/ament_xmllint:/home/xlr8wins/ros2_dashing/install/ament_pyflakes:/home/xlr8wins/ros2_dashing/install/ament_pep8:/home/xlr8wins/ros2_dashing/install/ament_pep257:/home/xlr8wins/ros2_dashing/install/ament_pclint:/home/xlr8wins/ros2_dashing/install/ament_package:/home/xlr8wins/ros2_dashing/install/ament_lint_cmake:/home/xlr8wins/ros2_dashing/install/ament_flake8:/home/xlr8wins/ros2_dashing/install/ament_copyright:/home/xlr8wins/ros2_dashing/install/ament_lint:/home/xlr8wins/ros2_dashing/install/ament_index_python:/home/xlr8wins/ros2_dashing/install/ament_cpplint:/home/xlr8wins/ros2_dashing/install/ament_cppcheck:/home/xlr8wins/ros2_dashing/install/ament_clang_tidy:/home/xlr8wins/ros2_dashing/install/ament_clang_format /usr/bin/cmake /home/xlr8wins/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/xlr8wins/dev_ws/src/install/turtlesim
+[11.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xlr8wins/dev_ws/src/test_pandee': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
+[15.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xlr8wins/dev_ws/src/test_pandee' returned '1': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
+[54.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[54.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[54.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[54.929s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[55.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[55.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[55.003s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[55.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[55.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.ps1'
+[55.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xlr8wins/dev_ws/src/install/_local_setup_util_ps1.py'
+[55.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.ps1'
+[55.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.sh'
+[55.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xlr8wins/dev_ws/src/install/_local_setup_util_sh.py'
+[55.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.sh'
+[55.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.bash'
+[55.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.bash'
+[55.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xlr8wins/dev_ws/src/install/local_setup.zsh'
+[55.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xlr8wins/dev_ws/src/install/setup.zsh'

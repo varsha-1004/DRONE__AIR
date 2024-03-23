@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/tes_pande/tes_pande.egg-info
+writing ../build/tes_pande/tes_pande.egg-info/PKG-INFO
+writing dependency_links to ../build/tes_pande/tes_pande.egg-info/dependency_links.txt
+writing entry points to ../build/tes_pande/tes_pande.egg-info/entry_points.txt
+writing requirements to ../build/tes_pande/tes_pande.egg-info/requires.txt
+writing top-level names to ../build/tes_pande/tes_pande.egg-info/top_level.txt
+writing manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'
+reading manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'
+writing manifest file '../build/tes_pande/tes_pande.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xlr8wins/dev_ws/src/build/tes_pande/build
+creating /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib
+creating /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande
+copying tes_pande/__init__.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande
+copying tes_pande/publisher_member_function.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande
+copying tes_pande/subscriber_member_function.py -> /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande
+running install
+running install_lib
+creating /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande
+copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/__init__.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande
+copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/publisher_member_function.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande
+copying /home/xlr8wins/dev_ws/src/build/tes_pande/build/lib/tes_pande/subscriber_member_function.py -> /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande
+byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/publisher_member_function.py to publisher_member_function.cpython-36.pyc
+byte-compiling /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc
+running install_data
+creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index
+creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index
+creating /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index/packages
+copying resource/tes_pande -> /home/xlr8wins/dev_ws/src/install/tes_pande/share/ament_index/resource_index/packages
+copying package.xml -> /home/xlr8wins/dev_ws/src/install/tes_pande/share/tes_pande
+running install_egg_info
+Copying ../build/tes_pande/tes_pande.egg-info to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/python3.6/site-packages/tes_pande-0.0.0-py3.6.egg-info
+running install_scripts
+Installing listener script to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/tes_pande
+Installing talker script to /home/xlr8wins/dev_ws/src/install/tes_pande/lib/tes_pande
+writing list of installed files to '/home/xlr8wins/dev_ws/src/build/tes_pande/install.log'

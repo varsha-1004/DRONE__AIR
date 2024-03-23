@@ -1,0 +1,3 @@
+/home/xlr8wins/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  % (opt, underscore_opt)
+error: package directory 'test_controller' does not exist

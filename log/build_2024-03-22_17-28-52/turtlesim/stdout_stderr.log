@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.6 (/home/xlr8wins/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_index_cpp: 0.7.2 (/home/xlr8wins/ros2_dashing/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found geometry_msgs: 0.7.1 (/home/xlr8wins/ros2_dashing/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_adapter: 0.7.10 (/home/xlr8wins/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.7.16 (/home/xlr8wins/ros2_dashing/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/home/xlr8wins/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 0.7.16 (/home/xlr8wins/ros2_dashing/install/rclcpp_action/share/rclcpp_action/cmake)
+-- Found rosidl_default_generators: 0.7.0 (/home/xlr8wins/ros2_dashing/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+-- Found FastRTPS: /home/xlr8wins/ros2_dashing/install/fastrtps/include  
+-- Found std_srvs: 0.7.1 (/home/xlr8wins/ros2_dashing/install/std_srvs/share/std_srvs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.11 (/home/xlr8wins/ros2_dashing/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xlr8wins/dev_ws/src/build/turtlesim

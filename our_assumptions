@@ -1,0 +1,10 @@
+1. camera is stable because of loiter mode of drone.
+2. we are able to estimate the GPS location of the object center point
+3. camera is parallel to the ground
+4. object is detected correctly with its bounding boxes in each frame
+5. the height/length ratio and height/width ratio remains constant
+6. we are able to do mobilnet object detection using python2
+7. we are able to stream the camera and then distribute it in two parts: live stream and controller
+8. live stream takes image input at 60hz and is able to display it without latency
+9. object detection is performed easily by resizing the camera input image from 320x240 to 300x300
+

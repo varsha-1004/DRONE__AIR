@@ -1,0 +1,39 @@
+[8.103s] Invoking command in '/home/xlr8wins/dev_ws/src/test_controller': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
+[11.192s] /home/xlr8wins/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.192s]   % (opt, underscore_opt)
+[11.409s] running egg_info
+[11.413s] writing ../build/test_controller/test_controller.egg-info/PKG-INFO
+[11.415s] writing dependency_links to ../build/test_controller/test_controller.egg-info/dependency_links.txt
+[11.417s] writing entry points to ../build/test_controller/test_controller.egg-info/entry_points.txt
+[11.419s] writing requirements to ../build/test_controller/test_controller.egg-info/requires.txt
+[11.420s] writing top-level names to ../build/test_controller/test_controller.egg-info/top_level.txt
+[11.462s] reading manifest file '../build/test_controller/test_controller.egg-info/SOURCES.txt'
+[11.469s] writing manifest file '../build/test_controller/test_controller.egg-info/SOURCES.txt'
+[11.471s] running build
+[11.472s] running build_py
+[11.474s] creating /home/xlr8wins/dev_ws/src/build/test_controller/build
+[11.475s] creating /home/xlr8wins/dev_ws/src/build/test_controller/build/lib
+[11.476s] creating /home/xlr8wins/dev_ws/src/build/test_controller/build/lib/test_controller
+[11.477s] copying test_controller/__init__.py -> /home/xlr8wins/dev_ws/src/build/test_controller/build/lib/test_controller
+[11.478s] copying test_controller/my_node.py -> /home/xlr8wins/dev_ws/src/build/test_controller/build/lib/test_controller
+[11.480s] running install
+[11.482s] /home/xlr8wins/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.483s]   setuptools.SetuptoolsDeprecationWarning,
+[11.484s] running install_lib
+[11.487s] creating /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller
+[11.489s] copying /home/xlr8wins/dev_ws/src/build/test_controller/build/lib/test_controller/__init__.py -> /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller
+[11.490s] copying /home/xlr8wins/dev_ws/src/build/test_controller/build/lib/test_controller/my_node.py -> /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller
+[11.505s] byte-compiling /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller/__init__.py to __init__.cpython-36.pyc
+[11.507s] byte-compiling /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller/my_node.py to my_node.cpython-36.pyc
+[11.509s] running install_data
+[11.513s] creating /home/xlr8wins/dev_ws/src/install/test_controller/share/ament_index
+[11.514s] creating /home/xlr8wins/dev_ws/src/install/test_controller/share/ament_index/resource_index
+[11.515s] creating /home/xlr8wins/dev_ws/src/install/test_controller/share/ament_index/resource_index/packages
+[11.517s] copying resource/test_controller -> /home/xlr8wins/dev_ws/src/install/test_controller/share/ament_index/resource_index/packages
+[11.518s] copying package.xml -> /home/xlr8wins/dev_ws/src/install/test_controller/share/test_controller
+[11.520s] running install_egg_info
+[11.542s] Copying ../build/test_controller/test_controller.egg-info to /home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages/test_controller-0.0.0-py3.6.egg-info
+[11.548s] running install_scripts
+[11.710s] Installing my_node script to /home/xlr8wins/dev_ws/src/install/test_controller/lib/test_pandee
+[11.713s] writing list of installed files to '/home/xlr8wins/dev_ws/src/build/test_controller/install.log'
+[11.844s] Invoked command in '/home/xlr8wins/dev_ws/src/test_controller' returned '0': PYTHONPATH=/home/xlr8wins/dev_ws/src/build/test_controller/prefix_override:/home/xlr8wins/dev_ws/src/install/test_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_controller build --build-base /home/xlr8wins/dev_ws/src/build/test_controller/build install --record /home/xlr8wins/dev_ws/src/build/test_controller/install.log --install-scripts $base/lib/test_pandee --single-version-externally-managed
